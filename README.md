@@ -1,151 +1,19 @@
-# Hi, I'm Kabir! 👋
+<div align="center">
+<h1> 👋 Hi, I’m @lewaxs </h1>
+<p> A high school student trying to gradually learn to code ❤ </p>
+  
+<h1> ❔ About </h1>
+  <p> 🏷 My name is Fırat </p>
+  <p> 🤓 I am back-end developer </p>
+  <p> 🏳 I live in Turkey </p>
+  <p> 🖥 Favorite programming language <a href="https://tr.wikipedia.org/wiki/JavaScript"> Javascript </a> </p>
 
-I'm a Discord Bot Developer and here is mine bot handler
 
-# Discord.JS V14 Handler
+<h1> ✍ Technologies I use </h1>
+<img src="https://skillicons.dev/icons?i=js,ts,cs,react,nodejs,mongodb,html,css,vscode,atom,discord&theme=dark" />
 
-a discord.js handler which support slash commands , message commands , events and more...
+<h1> 📈 My stats </h1>
+<img src="https://github-readme-stats.vercel.app/api?username=githubadresiniz&show_icons=true&theme=dark" />
 
-## **Installation | How to use the Bot**
-
-**1.** Install [node.js v16](https://nodejs.org/en/) or higher
-
-**2.** Download this repo and unzip it | or git clone it
-
-**3.** Fill in everything in **`settings/config.js`**
-
-**4.** after Fill everything in config Type in shall **`npm install`**
-
-**5.** start the bot with **`node index.js`**
-<br/>
-
-### _Modify - config.js_
-
-```javascript
-{
-  token: "BOT_TOKEN"
-  prefix: "BOT_PREFIX",
-}
-```
-
-## Handler Features
-
-- easy to use Handler
-- support event Handler
-- slash commands support
-- message commands support
-- based on [discord.js](https://discord.js.org/#/)
-- provied code snipet for commands
-- support sub directory in commands folder
-- support code suggestions in Handler
-
-## Feedback
-
-If you have any feedback, please reach out to us at [Discord Server](https://discord.gg/PcUVWApWN3)
-
-## Usage/Examples
-
-- Commands Example
-
-```javascript
-// chat input slash commands
-const {
-  CommandInteraction,
-  ApplicationCommandType,
-  PermissionFlagsBits,
-} = require("discord.js");
-const BOT = require("../../../handlers/Client");
-
-module.exports = {
-  name: "",
-  description: ``,
-  userPermissions: PermissionFlagsBits.SendMessages,
-  botPermissions: PermissionFlagsBits.SendMessages,
-  category: "",
-  cooldown: 10,
-  type: ApplicationCommandType.ChatInput,
-  /**
-   *
-   * @param {BOT} client
-   * @param {CommandInteraction} interaction
-   * @param {String[]} args
-   */
-  run: async (client, interaction, args) => {
-    // Code
-  },
-};
-
-// message input slash commands
-const { Message, PermissionFlagsBits } = require("discord.js");
-const BOT = require("../../../handlers/Client");
-
-module.exports = {
-  name: "",
-  description: ``,
-  userPermissions: PermissionFlagsBits.SendMessages,
-  botPermissions: PermissionFlagsBits.SendMessages,
-  category: "",
-  cooldown: 10,
-  /**
-   *
-   * @param {BOT} client
-   * @param {Message} message
-   * @param {String[]} args
-   * @param {String} prefix
-   */
-  run: async (client, message, args, prefix) => {
-    // Code
-  },
-};
-
-// user slash commands
-
-const {
-  ContextMenuCommandInteraction,
-  ApplicationCommandType,
-} = require("discord.js");
-const BOT = require("../../../handlers/Client");
-
-module.exports = {
-  name: "",
-  category: "",
-  type: ApplicationCommandType.User,
-  /**
-   *
-   * @param {BOT} client
-   * @param {ContextMenuCommandInteraction} interaction
-   */
-  run: async (client, interaction) => {
-    // Code
-  },
-};
-
-// message commands
-const { Message } = require("discord.js");
-const BOT = require("../../../handlers/Client");
-
-module.exports = {
-  name: "",
-  description: ``,
-  userPermissions: [],
-  botPermissions: [],
-  category: "",
-  cooldown: 10,
-  /**
-   *
-   * @param {BOT} client
-   * @param {Message} message
-   * @param {String[]} args
-   * @param {String} prefix
-   */
-  run: async (client, message, args, prefix) => {
-    // Code
-  },
-};
-```
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-# Thanks For Using Mine Handler Please Give a Star
+<h1> 💎 My achievements </h1>
+<img src="https://github-profile-trophy.vercel.app/?username=githubadresiniz&theme=onedark" />
